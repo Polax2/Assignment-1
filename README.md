@@ -47,3 +47,7 @@ Optional fields:
 
 If an optional field is left empty, the application fills the missing value using the imputation values calculated from the training data or the most common mode of the featire withing the training set.
 The application also contains basic input validation. Required fields cannot be left empty and negative values for numerical features are rejected before the prediction is made.
+
+## Used tools
+
+The project was developed using Python, Pandas, Scikit-learn and Dash. Docker was used to containerize the final web application.
